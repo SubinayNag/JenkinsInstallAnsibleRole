@@ -1,0 +1,5 @@
+---
+- include_tasks: installJava.yml
+- include_tasks: installGitWget.yml
+- include_tasks: downloadJenkinsRepo.yml
+- include_tasks: installJenkins.yml 
